@@ -1,0 +1,18 @@
+# Secrets
+*.secret.yaml
+*.secret.yml
+secret.yaml
+secrets.yaml
+
+# Local files
+.env
+*.log
+
+# Kubernetes generated/local files
+*.working.yaml
+*-working.yaml
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
